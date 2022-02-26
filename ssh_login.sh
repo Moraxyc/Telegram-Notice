@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-TELEGRAMUSERID="<telegram user id>"
-TOKEN="<bot token>"
+source /etc/tgnotice/.config/telegramuserid
+source /etc/tgnotice/.config/bot-token
 
 for i in "${TELEGRAMUSERID[@]}"
 do
