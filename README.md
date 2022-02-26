@@ -2,13 +2,13 @@
 
 这是Telegram上一个专用于通知的BOT，没有设置响应交互功能。
 
-现阶段只有SSH Login 的提醒。仅需配置好通知BOT的token及对应的userid即可。
+现阶段只有SSH Login 的提醒。仅需配置好通知BOT的token及对应的TELEGRAMUSERID即可。
 
 # 安装方式
 
 ## SSH Login Notice
 
-下载脚本后，在[@userinfobot](t.me/userinfobot)处得知账户id，填入脚本`USERID`后的双引号内。再在[@BotFather](t.me/botfather)处根据提示注册BOT，获取BOT Token，形如`1234567890:AJZIBSHXJNSHXBISSBBDIJDHDJS`，填入脚本`KEY`处。
+下载脚本后，在[@userinfobot](t.me/userinfobot)处得知账户id，填入脚本`TELEGRAMUSERID`后的双引号内。再在[@BotFather](t.me/botfather)处根据提示注册BOT，获取BOT Token，形如`1234567890:AJZIBSHXJNSHXBISSBBDIJDHDJS`，填入脚本`TOKEN`处。
 
 将填完信息的sh脚本放入`etc/profile.d`目录下，即可实现登录自动提醒。
 
