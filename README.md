@@ -8,9 +8,9 @@
 
 ## SSH Login Notice
 
-Telegram user id 可以在[@userinfobot](t.me/userinfobot)获取
+Telegram user id 可以在@[userinfobot](t.me/userinfobot)获取
 
-[@BotFather](t.me/botfather)处根据提示注册BOT,获取BOT Token，形如`1234567890:AJZIBSHXJNSHXBISSBBDIJDHDJS`
+@[BotFather](t.me/botfather)处根据提示注册BOT,获取BOT Token，形如`1234567890:AJZIBSHXJNSHXBISSBBDIJDHDJS`
 
 将下方代码框内的`<bot token>`替换为机器人token。
 
