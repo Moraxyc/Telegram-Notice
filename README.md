@@ -19,12 +19,8 @@ Telegram user id 可以在[@userinfobot](t.me/userinfobot)获取
 ``` bash
 wget -P /etc/profile.d https://raw.githubusercontent.com/Morax-xyc/Telegram-Notice/main/ssh_login.sh
 mkdir /etc/tgnotice
-mkdir /etc/tgnotice/.config
-cat > /etc/tgnotice/.config/bot-token <<EOF
+cat > /etc/tgnotice/config <<EOF
 TOKEN=<bot token>
-EOF
-
-cat > /etc/tgnotice/.config/telegramuserid <<EOF
 TELEGRAMUSERID=<telegram user id>
 EOF 
 ```
