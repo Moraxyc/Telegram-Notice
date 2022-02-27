@@ -8,9 +8,25 @@
 
 ## SSH Login Notice
 
-下载脚本后，在[@userinfobot](t.me/userinfobot)处得知账户id，填入脚本`TELEGRAMUSERID`后的双引号内。再在[@BotFather](t.me/botfather)处根据提示注册BOT，获取BOT Token，形如`1234567890:AJZIBSHXJNSHXBISSBBDIJDHDJS`，填入脚本`TOKEN`处。
+Telegram user id 可以在[@userinfobot](t.me/userinfobot)获取
 
-将填完信息的sh脚本放入`etc/profile.d`目录下，即可实现登录自动提醒。
+[@BotFather](t.me/botfather)处根据提示注册BOT,获取BOT Token，形如`1234567890:AJZIBSHXJNSHXBISSBBDIJDHDJS`
+
+将下方代码框内的`<bot token>`替换为机器人token。
+
+将`<telegram user id>`替换为个人账号ID。
+
+``` bash
+wget -P /etc/profile.d https://raw.githubusercontent.com/Morax-xyc/Telegram-Notice/main/ssh_login.sh
+mkdir /etc/tgnotice
+mkdir /etc/tgnotice/.config
+cat > /etc/tgnotice/.config/bot-token <<EOF
+> TOKEN=<bot token>
+> EOF
+cat > /etc/tgnotice/.config/telegramuserid <<EOF
+> TELEGRAMUSERID=<telegram user id>
+> EOF 
+```
 
 # 实现方式
 
