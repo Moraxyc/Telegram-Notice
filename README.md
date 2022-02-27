@@ -29,7 +29,7 @@ EOF
 
 ## SSH Login Notice
 
-将脚本文件放置于`etc/profile.d`下，每次用户登录时，与目录高度耦合的`etc/profile`文件都将自动执行目录下shell
+将脚本文件放置于`etc/profile.d`下，每次用户登录时，与目录耦合的`etc/profile`文件都将自动执行目录下shell
 
 # Features
 
