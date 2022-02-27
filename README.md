@@ -21,12 +21,12 @@ wget -P /etc/profile.d https://raw.githubusercontent.com/Morax-xyc/Telegram-Noti
 mkdir /etc/tgnotice
 mkdir /etc/tgnotice/.config
 cat > /etc/tgnotice/.config/bot-token <<EOF
-> TOKEN=<bot token>
-> EOF
+TOKEN=<bot token>
+EOF
 
 cat > /etc/tgnotice/.config/telegramuserid <<EOF
-> TELEGRAMUSERID=<telegram user id>
-> EOF 
+TELEGRAMUSERID=<telegram user id>
+EOF 
 ```
 
 # 实现方式
