@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #由Morax-xyc修改，原作者为英文母语者，已不可考。
-#中文化，更改api接口，增加IP地址，增加网络供应商，优化优化账户及Token储存逻辑以兼容其余脚本。
+#中文化，更改api接口，增加IP地址，增加网络供应商提示，优化优化账户及Token储存逻辑以兼容其余脚本。
 
 source /etc/tgnotice/config
 
